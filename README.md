@@ -36,6 +36,3 @@ In-the-Wild Jailbreak Prompts (TrustAIRLab / "jailbreak_llms")
 What: a large collection (~15k prompts collected from Reddit/Discord/web) with a subset of identified jailbreak prompts (~1,405).
 Why use it: captures real-world, community-sourced jailbreak attempts (great for "in the wild" evaluation).
 
-PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models
-
-POISONCRAFT: Practical Poisoning of Retrieval-Augmented Generation for Large Language Models
