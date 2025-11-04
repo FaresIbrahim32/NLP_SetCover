@@ -30,6 +30,16 @@ Why use it: small, focused, commonly used in jailbreak/robustness papers (includ
 
 Anthropic HH-RLHF — "red-team-attempts"
 What: human red-team attempt dialogues collected by Anthropic (used in their HH-RLHF release).
+
+# **Workflow**
+The code is organized as follows:
+
+data/ contains the datasets used in the paper. The datasets can be downloaded from here.
+src/params.py defines experiment parameters
+src/driver.py is the main file to run a single experiment. Instead of directly running this file, use src/experiments.py -- it defines default parameters and makes it easy to run multiple experiments.
+src/experiments.py contains the code to run experiments, track experiment statuses and aggregate results. Instead, of directly it dumps the parameters for all the experiments to a file that is then used by src/run.py.
+src/run.py used to run one or more experiments sequentially or in parallel on one or more gpus. It is the main file to run experiments.
+Experiment results are dumped in results/.
 Why use it: large, human-crafted red-team dialogues with tags/metadata — excellent for realistic jailbreak testing.
 
 In-the-Wild Jailbreak Prompts (TrustAIRLab / "jailbreak_llms")
