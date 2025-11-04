@@ -40,9 +40,4 @@ src/driver.py is the main file to run a single experiment. Instead of directly r
 src/experiments.py contains the code to run experiments, track experiment statuses and aggregate results. Instead, of directly it dumps the parameters for all the experiments to a file that is then used by src/run.py.
 src/run.py used to run one or more experiments sequentially or in parallel on one or more gpus. It is the main file to run experiments.
 Experiment results are dumped in results/.
-Why use it: large, human-crafted red-team dialogues with tags/metadata — excellent for realistic jailbreak testing.
-
-In-the-Wild Jailbreak Prompts (TrustAIRLab / "jailbreak_llms")
-What: a large collection (~15k prompts collected from Reddit/Discord/web) with a subset of identified jailbreak prompts (~1,405).
-Why use it: captures real-world, community-sourced jailbreak attempts (great for "in the wild" evaluation).
 
