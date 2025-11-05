@@ -1,4 +1,4 @@
-This repo is our work for the CIS 6930 course Topics in NLP final project. 
+This repo is our work for the CIS 6930 course Topics in NLP final project as a research project 
 
 # **Proposal**
 
