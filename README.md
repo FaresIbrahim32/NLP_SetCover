@@ -1,4 +1,8 @@
 This repo is our work for the CIS 6930 course Topics in NLP final project as a research project 
+on advbench
+mistral 93 so far 
+vicuna:7b 90
+llama 1 
 
 # **Proposal**
 
